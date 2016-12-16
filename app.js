@@ -12,7 +12,6 @@ var env = {
     name: ""
 };
 
-var port = 80;
 if (process.argv.length >= 3) {
     if (process.argv[2] === "dev") {
         env = { port: 8080, name: "dev" };
