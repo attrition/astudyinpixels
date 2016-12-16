@@ -1,0 +1,3 @@
+[submodule "projects/ld37"]
+	path = projects/ld37
+	url = https://github.com/attrition/OneRoom

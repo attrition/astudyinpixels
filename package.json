@@ -1,0 +1,22 @@
+{
+  "name": "astudyinpixels",
+  "version": "0.0.1",
+  "description": "not much really",
+  "main": "app.js",
+  "scripts": {
+    "build-css": "stylus source/stylesheets/index.styl -o static/css",
+    "watch-css": "stylus source/stylesheets/index.styl -o static/css -w",
+    "clean": "rm -rf static/css && mkdir -p static/css",
+    "build": "npm run clean && npm run build-css",
+    "watch": "npm run clean && npm run watch-css & nodemon app -e js,pug",
+    "start": "node app"
+  },
+  "author": "attrition0",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "nodemon": "^1.11.0",
+    "pug": "^2.0.0-beta6",
+    "stylus": "^0.54.5"
+  }
+}

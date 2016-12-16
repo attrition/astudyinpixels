@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ "$1" == "dev" ]; then
+    sudo npm run clean && sudo npm run watch-css & nodemon app -e js,pug dev
+else
+    sudo forever start app.js
+fi
