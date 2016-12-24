@@ -1,8 +1,8 @@
 var express = require("express");
 var app = express();
 
-var template = require('pug').compileFile(__dirname + '/source/templates/homepage.pug');
-var path = require('path');
+var template = require("pug").compileFile(__dirname + "/source/templates/homepage.pug");
+var path = require("path");
 
 // check if 'dev' is passed in as an argument and use port 8080 in that case
 
@@ -21,8 +21,8 @@ if (process.argv.length >= 3) {
 
 // static content
 
-app.use(express.static(__dirname + '/static'));
-app.use('/ld37/', express.static(path.join(__dirname, 'projects/ld37')));
+app.use(express.static(__dirname + "/static"));
+app.use("/ld37/", express.static(path.join(__dirname, "projects/ld37")));
 
 // content serving
 
