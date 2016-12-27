@@ -1,3 +1,6 @@
 [submodule "projects/ld37"]
 	path = projects/ld37
 	url = https://github.com/attrition/OneRoom
+[submodule "source/font-awesome"]
+	path = source/font-awesome
+	url = https://github.com/FortAwesome/Font-Awesome.git

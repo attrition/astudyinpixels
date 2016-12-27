@@ -21,8 +21,9 @@ if (process.argv.length >= 3) {
 
 // static content
 
-app.use(express.static(__dirname + "/static"));
+app.use(express.static(path.join(__dirname, "/static")));
 app.use("/source/js", express.static(path.join(__dirname, "source/js")));
+app.use("/source/font-awesome", express.static(path.join(__dirname, "source/font-awesome")));
 app.use("/ld37/", express.static(path.join(__dirname, "projects/ld37")));
 
 // content serving

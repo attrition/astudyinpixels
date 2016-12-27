@@ -2,16 +2,21 @@ doctype html
 html
   head
     link(rel='stylesheet', href='/css/index.css')
+    link(rel='stylesheet', href='/source/font-awesome/css/font-awesome.min.css')
+    meta(charset='utf-8')
     title astudyinpixels
+  
   body
-    .header
-      h1.page-title astudyinpixels
 
-    ul.nav
-      li: a(href='/') Home
-      li: a(href='#news') News
-      li: a(href='#about') About
-      li: a(href='#contact') Contact
+    .header 
+      ul.nav
+        li: h1.page-title astudyinpixels
+        li
+          ul.nav
+             li: a(href='http://twitter.com/attrition0'): i.fa.fa-twitter.fa-3x
+             li.icon: a(href='http://astudyinpixels.tumblr.com'): i.fa.fa-tumblr.fa-3x
+             li.icon: a(href='http://github.com/attrition'): i.fa.fa-github.fa-3x
+             li.icon: a(href='mailto:attrition.h@gmail.com?subject=astudyinpixels'): i.fa.fa-envelope.fa-3x
     
     .main-content
       block content
