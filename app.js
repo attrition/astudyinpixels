@@ -26,6 +26,8 @@ app.use("/source/js", express.static(path.join(__dirname, "source/js")));
 app.use("/source/font-awesome", express.static(path.join(__dirname, "source/font-awesome")));
 app.use("/ld37/", express.static(path.join(__dirname, "projects/ld37")));
 app.use("/roguespy/", express.static(path.join(__dirname, "projects/roguespy")));
+app.use("/tdtest/", express.static(path.join(__dirname, "projects/tdtest")));
+app.use("/tdtest/td_monsters", express.static(path.join(__dirname, "projects/tdtest/td_monsters")));
 
 // content serving
 
