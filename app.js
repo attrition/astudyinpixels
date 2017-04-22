@@ -28,6 +28,9 @@ app.use("/ld37/", express.static(path.join(__dirname, "projects/ld37")));
 app.use("/roguespy/", express.static(path.join(__dirname, "projects/roguespy")));
 app.use("/tdtest/", express.static(path.join(__dirname, "projects/tdtest")));
 app.use("/tdtest/td_monsters", express.static(path.join(__dirname, "projects/tdtest/td_monsters")));
+app.use("/ld38/", express.static(path.join(__dirname, "projects/SmallWorld")));
+app.use("/ld38/Build", express.static(path.join(__dirname, "projects/SmallWorld/Build")));
+app.use("/ld38/TemplateData", express.static(path.join(__dirname, "projects/SmallWorld/TemplateData")));
 
 // content serving
 
