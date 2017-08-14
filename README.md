@@ -5,6 +5,8 @@ not much to see here, at the moment
 
 # included projects
 
+**[ABANDON SHIP](https://astudyinpixels.itch.io/abandon-ship)**  
+for ludum dare 39 "running out of power"  
 **[small world tycoon](http://astudyinpixels.com/ld38)**  
 for ludum dare 38 "Small World"  
 **[hoplitelite](http://astudyinpixels.com/ld37)**  
